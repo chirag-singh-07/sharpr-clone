@@ -403,6 +403,7 @@ const Contact = () => {
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "flex-start",
+      // justifyContent: "center",
       paddingTop: "100px", // Reduced padding for more modern spacing
       background: colors.backgroundGradient,
       padding: "100px 20px 40px", // Adjusted padding for better layout
@@ -445,6 +446,7 @@ const Contact = () => {
       borderRadius: "20px", // Increased for more modern look
       boxShadow: colors.cardShadow,
       padding: "40px",
+      // paddingLeft:"80px",
       width: "100%",
       margin: "0",
       position: "relative",
@@ -498,7 +500,7 @@ const Contact = () => {
     formGroup: {
       position: "relative",
       marginBottom: "28px", // Increased for better spacing
-      width: "100%", // Changed from 80% to 100% for container
+      width: "90%", // Changed from 80% to 100% for container
     },
     input: {
       width: "100%",
@@ -800,6 +802,7 @@ const Contact = () => {
       input: {
         fontSize: "16px", // Prevents zoom on input focus on iOS
         padding: "14px 12px", // Slightly reduced for better fit
+        // width:"20px"
       },
       successMessage: {
         padding: "14px",
@@ -1028,7 +1031,7 @@ const Contact = () => {
           ...styles,
           container: {
             ...styles.container,
-            padding: "80px 16px 20px", // Match mobile container style
+            padding: "80px 20px", // Match mobile container style
           },
         }}
         socials={socials}
